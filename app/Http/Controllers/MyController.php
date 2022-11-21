@@ -8,7 +8,7 @@ class MyController extends Controller
 {
   function abm(){
 
-    return view("raiyan");
+    return view("showkat");
   }
   function abc(){
 
