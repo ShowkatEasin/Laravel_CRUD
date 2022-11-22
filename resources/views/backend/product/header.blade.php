@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{asset('mystyle.css')}}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
@@ -25,11 +26,11 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Product
+            Category
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{Route('product')}}">Add New</a></li>
-            <li><a class="dropdown-item" href="{{Route('showproduct')}}">Manage action</a></li>
+            <li><a class="dropdown-item" href="{{Route('category')}}">Add New</a></li>
+            <li><a class="dropdown-item" href="{{Route('showproduct')}}">Manage</a></li>
             
             
           </ul>

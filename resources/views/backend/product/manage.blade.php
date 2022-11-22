@@ -23,10 +23,10 @@
 
                   @endif</td> 
             <td><a class="btn btn-sm btn-success" href="{{Route('edit',$product->id)}}">Edit</a></td>
-            <td><button data-bs-toggle="modal" data-bs-target="#delete" class="btn btn-sm btn-danger" href="">Delete</button></td>
+            <td><button data-bs-toggle="modal" data-bs-target="#delete{{$product->id}}" class="btn btn-sm btn-danger" href="">Delete</button></td>
          </tr>
          @php $sl++ @endphp
-         <div class="modal" id="delete" tabindex="-1">
+         <div class="modal" id="delete{{$product->id}}" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
