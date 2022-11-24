@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Laravel</h1>
-    <a href="{{route('abm')}}">Showkat</a>
+    <h1>Welcome</h1>
+    <a href="{{ route('abm') }}">Showkat</a>
+ 
 </body>
 </html>

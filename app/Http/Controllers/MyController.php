@@ -6,17 +6,10 @@ use Illuminate\Http\Request;
 
 class MyController extends Controller
 {
-  function abm(){
-
+   function abm(){
     return view("showkat");
-  }
-  function abc(){
-
+   }
+   function abc(){
     return view("welcome");
-  }
-
-
-
-
-
+   }
 }
